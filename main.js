@@ -71,12 +71,16 @@ function inputOper(op) {
         right= "-"
         save()
         return;
+    }if(left === null && op !== "-") {
+        return;
     }
     oper = op;
     save()
 }
 
 function inpurEqual() {
+    if(left === null || right === null || !oper)
+    return;
 
    if(res) {
        left = resValue

@@ -1,8 +1,18 @@
+
+.container{
+    width: 244px;
+    height: 306px;
+    background-color: #808080;
+    padding: 4px;
+    border-radius: 4px;
+    margin : 50px auto;
+}
+
 .btn {
-    width: 48px;
-    height: 48px;
-    background-color: #2699FB;
-    color : #fff;
+    width: 58px;
+    height: 58px;
+    background-color: #fff;
+    color : #808080;
     border-radius: 4px;
     display: flex;
     justify-content: center;
@@ -16,8 +26,8 @@
 }
 
 .btn-lg {
-    width: 100px;
-    height : 48px;
+    width: 120px;
+    height : 58px;
 }
 
 .row {
@@ -31,11 +41,11 @@
 /*input*/
 
 .input{
-    width: 204px;
-    height: 48px;
+    width: 244px;
+    height: 58px;
     box-sizing: border-box;
     outline: none;
-    color : #51b0fd;
+    color : #000;
     font-size: 14px;
     padding: 0 10px;
 }
